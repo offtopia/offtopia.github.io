@@ -1,0 +1,16 @@
+Editing
+=======
+
+Do your edits in the .eww files, and run make. Commit both the .eww file and the
+generated .html. Remember to use a text editor that generates actual tabs and
+will not to tab to spaces conversion.
+
+.eww file
+=========
+.eww is a column (tab) based file format thrown together specifically for this.
+
+The file format is column-based, because yaay
+rem\t... is a comment
+project\tName\tURL\tPeople\tDescription generates HTML for a project
+person\tNick\tURL\tDescription generated HTML for a person
+\t... is raw HTML

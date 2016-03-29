@@ -1,8 +1,3 @@
-rem	The file format is column-based, because yaay
-rem	rem\t... is a comment
-rem	project\tName\tURL\tPeople\tDescription generates HTML for a project
-rem	person\tNick\tURL\tDescription generated HTML for a person
-rem	\t... is raw HTML
 	<!DOCTYPE html>
 	
 	<html>
