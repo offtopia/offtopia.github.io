@@ -1,0 +1,99 @@
+rem	The file format is column-based, because yaay
+rem	rem\t... is a comment
+rem	project\tName\tURL\tPeople\tDescription generates HTML for a project
+rem	person\tNick\tURL\tDescription generated HTML for a person
+rem	\t... is raw HTML
+	<!DOCTYPE html>
+	
+	<html>
+		<head>
+			<meta charset="utf-8"/>
+			<title>#osdev-offtopic wobsite</title>
+			<style type="text/css">
+			body {
+				max-width: 1000px;
+				margin: auto;
+				font-family: sans-serif;
+				color: #202020;
+				background-color: #E0E0E0; }
+			h1 {
+				font-style: bold;
+				margin: 0px; }
+			h2 {
+				font-style: bold;
+				margin: 0px; }
+			p {
+				margin: 0px; }
+			
+			#header {
+				margin-top: 10px;
+				margin-bottom: 20px;
+				text-align: center; }
+			#header h1 {
+				margin-bottom: 10px;
+				font-size: 180%;}
+			#header h2 {
+				font-size: 105%; }
+			
+			#projects h1 {
+				font-size: 120%;
+				margin: 10px; }
+			
+			.project {
+				margin-left: 20px;
+				margin-top: 20px; }
+			.project .name-link {
+				font-size: 105%;
+				font-style: normal;
+				color: #5050A0; }
+			.project .participants {
+				font-size: 90%;
+				color: #606060; }
+			.project .description {
+				margin-top: 10px; }
+			
+			#people h1 {
+				font-size: 120%;
+				margin: 10px; }
+			#people .explanation {
+				margin-left: 25px; }
+			
+			.person {
+				margin-left: 20px;
+				margin-top: 20px; }
+			.person .nick {
+				font-size: 105%;
+				font-style: normal;
+				color: #505050; }
+			.person .nick .nick-link {
+				color: #5050A0; }
+			.person .description {
+				margin-top: 10px; }
+			</style>
+		</head>
+		<body>
+			<div id="header">
+				<h1>#osdev-offtopic</h1>
+				<h2>we do open source development (sometimes)</h2>
+			</div>
+			<div id="projects">
+				<h1>512B projects</h1>
+project	Tetranglix	https://github.com/Shikhin/tetranglix	nortti, shikhin, XgF	Tetris boot sector originally written for 1st of April 2014. Was featured in PoC||GTFO 0x03 as an article and in 0x05 as embedded boot sector.
+project	Wodscipe	https://github.com/Shikhin/wodscipe	nortti, shikhin	Ed-style IDE and interpreters for several esoteric programming languages. Created for the second aniversary of #osdev-offtopic.
+				
+				<h1>Other projects</h1>
+project	oonbotti2	https://github.com/JuEeHa/oonbotti2	nortti, (FireFly), (sortie)	IRC bot created for #osdev-offtopic. FireFly and sortie have contributed to it.
+			</div>
+	
+			<div id="people">
+				<h1>Triumvirate</h1>
+				<p class="explanation">The "inner circle" of #osdev-offtopic</p>
+			</div>
+person	heddwch		Not a welshman.
+person	nortti	https://github.com/JuEeHa/	User of elder hardware, hacker of weird software.
+person	olsner		Exist.
+person	puckipedia	http://blog.puckipedia.com/	Uncharacteristically productive for an offtopian.
+person	shikhin	https://shikhin.in/	Free of thought.
+person	sortie	http://maxsi.org/	Might or might not be an orange trapezoid-legged cat.
+		</body>
+	</html>
