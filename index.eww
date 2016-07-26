@@ -32,11 +32,12 @@
 			
 			#projects h1 {
 				font-size: 120%;
-				margin: 10px; }
+				margin-left: 10px; }
 			
 			.project {
 				margin-left: 20px;
-				margin-top: 20px; }
+				margin-top: 20px;
+				margin-bottom: 20px; }
 			.project .name-link {
 				font-size: 105%;
 				font-style: normal;
@@ -49,13 +50,15 @@
 			
 			#people h1 {
 				font-size: 120%;
-				margin: 10px; }
+				margin-left: 10px; }
 			#people .explanation {
-				margin-left: 25px; }
+				margin-left: 25px;
+				margin-top: 20px; }
 			
 			.person {
 				margin-left: 20px;
-				margin-top: 20px; }
+				margin-top: 20px;
+				margin-bottom: 20px; }
 			.person .nick {
 				font-size: 105%;
 				font-style: normal;
@@ -86,11 +89,11 @@ project	Lawguide	lawguide.pdf	 	A summary of the most important laws helpful for
 			<div id="people">
 				<h1>Triumvirate</h1>
 				<p class="explanation">The "inner circle" of #osdev-offtopic</p>
-			</div>
 person	heddwch	https://github.com/heddwch	Not a welshman. Might be a wombat however.
 person	nortti	https://github.com/JuEeHa/	User of elder hardware, hacker of weird software.
 person	puckipedia	https://blog.puckipedia.com/	Uncharacteristically productive for an offtopian.
 person	shikhin	http://shikhin.in/	Free of thought.
 person	sortie	http://maxsi.org/	Might or might not be an orange trapezoid-legged cat.
+			</div>
 		</body>
 	</html>
