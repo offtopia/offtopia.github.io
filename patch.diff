@@ -1,0 +1,60 @@
+--- a/index.eww	2016-10-20 00:02:20.720484543 +0300
++++ b/index.eww	2016-10-20 00:02:32.268673684 +0300
+@@ -9,7 +9,7 @@
+ 				max-width: 1000px;
+ 				margin: auto;
+ 				font-family: sans-serif;
+-				color: #202020;
++				color: #000000;
+ 				background-color: #E0E0E0; }
+ 			h1 {
+ 				font-style: bold;
+@@ -32,39 +32,36 @@
+ 			
+ 			#projects h1 {
+ 				font-size: 120%;
+-				margin-left: 10px; }
++				margin: 10px; }
+ 			
+ 			.project {
+ 				margin-left: 20px;
+-				margin-top: 20px;
+-				margin-bottom: 20px; }
++				margin-top: 20px; }
+ 			.project .name-link {
+ 				font-size: 105%;
+ 				font-style: normal;
+-				color: #5050A0; }
++				color: #3030D0; }
+ 			.project .participants {
+ 				font-size: 90%;
+-				color: #606060; }
++				color: #303030; }
+ 			.project .description {
+ 				margin-top: 10px; }
+ 			
+ 			#people h1 {
+ 				font-size: 120%;
+-				margin-left: 10px; }
++				margin: 10px; }
+ 			#people .explanation {
+-				margin-left: 20px;
+-				margin-top: 20px; }
++				margin-left: 25px; }
+ 			
+ 			.person {
+ 				margin-left: 20px;
+-				margin-top: 20px;
+-				margin-bottom: 20px; }
++				margin-top: 20px; }
+ 			.person .nick {
+ 				font-size: 105%;
+ 				font-style: normal;
+-				color: #505050; }
++				color: #304030; }
+ 			.person .nick .nick-link {
+-				color: #5050A0; }
++				color: #3030D0; }
+ 			.person .description {
+ 				margin-top: 10px; }
+ 			</style>

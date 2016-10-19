@@ -9,7 +9,7 @@
 				max-width: 1000px;
 				margin: auto;
 				font-family: sans-serif;
-				color: #202020;
+				color: #000000;
 				background-color: #E0E0E0; }
 			h1 {
 				font-style: bold;
@@ -41,10 +41,10 @@
 			.project .name-link {
 				font-size: 105%;
 				font-style: normal;
-				color: #5050A0; }
+				color: #2020E0; }
 			.project .participants {
 				font-size: 90%;
-				color: #606060; }
+				color: #202020; }
 			.project .description {
 				margin-top: 10px; }
 			
@@ -62,9 +62,9 @@
 			.person .nick {
 				font-size: 105%;
 				font-style: normal;
-				color: #505050; }
+				color: #202020; }
 			.person .nick .nick-link {
-				color: #5050A0; }
+				color: #2020E0; }
 			.person .description {
 				margin-top: 10px; }
 			</style>
