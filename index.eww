@@ -84,7 +84,7 @@ project	Wodscipe	https://github.com/Shikhin/wodscipe	nortti, shikhin	Ed-style ID
 project	oonbotti2	https://github.com/JuEeHa/oonbotti2	nortti, (FireFly), (sortie)	IRC bot created for #osdev-offtopic. FireFly and sortie have contributed to it.
 project	CardsAgainstIRC	https://github.com/puckipedia/CardsAgainstIRC	puckipedia	IRC bot that runs Cards Against Humanity games at ###cards. Written in C# and mainly run under mono.
 				<h1>Law</h1>
-project	Lawguide	lawguide.pdf	 	A summary of the most important laws helpful for everyday activity.
+project	Lawguide	lawguide/lawguide.pdf	 	A summary of the most important laws helpful for everyday activity.
 			</div>
 	
 			<div id="people">
